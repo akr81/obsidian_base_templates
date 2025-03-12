@@ -30,3 +30,10 @@ due before <% tp.date.now("YYYY-MM-DD", 3, tp.file.title, "YYYYMMDD") %>
 not done
 scheduled before <% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYYMMDD") %>
 ```
+
+### 完了
+
+```tasks
+done <% tp.date.now("YYYY-MM-DD", 0, tp.file.title, "YYYYMMDD") %>
+```
+
